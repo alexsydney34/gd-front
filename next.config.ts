@@ -14,6 +14,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 't.me',
+        port: '',
+        pathname: '/i/userpic/**',
+      },
     ],
   },
   // Оптимизация для статических ассетов
