@@ -23,12 +23,6 @@ const config: OpenNextConfig = {
       queue: 'dummy',
     },
   },
-  imageOptimization: {
-    override: {
-      wrapper: 'cloudflare-node',
-      converter: 'edge',
-    },
-  },
 };
 
 export default config;
