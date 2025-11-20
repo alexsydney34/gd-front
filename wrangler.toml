@@ -1,0 +1,13 @@
+name = "golden-front"
+compatibility_date = "2025-11-11"
+compatibility_flags = ["nodejs_compat"]
+main = ".open-next/worker.js"
+
+[observability]
+enabled = true
+
+# Static assets configuration
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
