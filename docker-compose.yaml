@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  nextjs:
+    image: golden-duck-front
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:5000
+    ports:
+      - "3000:3000"
