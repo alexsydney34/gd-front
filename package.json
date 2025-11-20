@@ -5,8 +5,10 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
+    "build:worker": "next build && npx @opennextjs/cloudflare build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "preview": "npx @opennextjs/cloudflare preview"
   },
   "dependencies": {
     "@opennextjs/cloudflare": "^1.13.1",
